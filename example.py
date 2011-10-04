@@ -40,7 +40,6 @@ class Uptime(object):
         return ''
 
 if __name__ == "__main__":
-
     Bot.LOGS.append(ApacheLog("/var/log/apache2/error.log", "error"))
     Bot.LOGS.append(ApacheLog("/var/log/apache2/access.log", "access"))
 
